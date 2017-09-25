@@ -18,3 +18,42 @@ This could be name as plugin or a solution. As I am a WordPress lover and in Wor
 * Added various language some support (25-09-17)
 * You can choose your own colors for background, Wudget Panel, button and texts. (25-09-17)
 * Added retina ready support, though not yet tested. (25-09-17)
+
+## How to use
+
+You can easily integrate Instagram Widget Plugin in your site. Its easy as drinking water.
+
+Add Instagram widget files just in your site header as like as bellow:
+
+```html
+<link href="/instagram-widget/insta-widget.css" rel="stylesheet">
+<script src="/instagram-widget/insta-widget.js"></script>
+```
+
+To work Instagram widget properly, make sure you added jQuery. If you didnt add jQuery, then you can add like bellow:
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+```
+
+Now its time to add Instagram Widget in your site.
+
+```html
+<div data-il 
+     data-il-api="/instagram-widget/api/"
+     data-il-username="shameemreza_"
+     data-il-hashtag=""
+     data-il-lang="en"
+     data-il-show-heading="true"
+     data-il-scroll="true"
+     data-il-width="270px"
+     data-il-height="350px"
+     data-il-image-size="medium"
+     data-il-bg-color="#285989"
+     data-il-content-bg-color="#F8F8F8"
+     data-il-font-color="#FFFFFF"
+     data-il-ban="">
+</div>
+```
+
+You can control everything using JSON file which has been included into API folder.
