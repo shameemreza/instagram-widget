@@ -39,20 +39,20 @@ To work Instagram widget properly, make sure you added jQuery. If you didnt add 
 Now its time to add Instagram Widget in your site.
 
 ```html
-<div data-il 
-     data-il-api="/instagram-widget/api/"
-     data-il-username="shameemreza_"
-     data-il-hashtag=""
-     data-il-lang="en"
-     data-il-show-heading="true"
-     data-il-scroll="true"
-     data-il-width="270px"
-     data-il-height="350px"
-     data-il-image-size="medium"
-     data-il-bg-color="#285989"
-     data-il-content-bg-color="#F8F8F8"
-     data-il-font-color="#FFFFFF"
-     data-il-ban="">
+<div data-msr 
+     data-msr-api="/instagram-widget/api/"
+     data-msr-username="shameemreza_"
+     data-msr-hashtag=""
+     data-msr-lang="en"
+     data-msr-show-heading="true"
+     data-msr-scroll="true"
+     data-msr-width="270px"
+     data-msr-height="350px"
+     data-msr-image-size="medium"
+     data-msr-bg-color="#285989"
+     data-msr-content-bg-color="#F8F8F8"
+     data-msr-font-color="#FFFFFF"
+     data-msr-ban="">
 </div>
 ```
 
